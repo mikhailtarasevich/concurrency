@@ -7,7 +7,6 @@ public class Consumer1 implements Flow.Subscriber<Item> {
     @Override
     public void onComplete() {
         System.out.printf("%s: Consumer 1: Completed\n", Thread.currentThread().getName());
-
     }
 
     @Override
